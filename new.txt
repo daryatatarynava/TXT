@@ -1,3 +1,5 @@
-1)
-2)
-3)
+1) Tatarynava Darya
+2) Age: 29
+3) Pets number: 1
+4) Desired salary: 2000
+
