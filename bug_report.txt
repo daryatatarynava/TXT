@@ -1,0 +1,25 @@
+Title : 'Approval Internal Governance' section is not editable when Engagement is shared to Buyer automatically
+
+Pre-condition: 
+
+User is logged the system Head of Procurement, Head of Sales
+
+https://dev.trueledger.net/
+
+e. g. gzcylyxtccvcjq@solarunited.net
+Initial1
+
+Steps:
+1. Go to Engagements page https://dev.trueledger.net/home 
+2. Create new Engagement -> Fill in all required fields Step 1 - 11 -> Sign Engagement on Vendor side: Engagement is shared with Buyer automatically 
+3. Open Engagement on Buyer side. https://dev.trueledger.net/engagement?uuid=123747940571354042836254085676249930742&step=6
+4. Open Step 5 
+
+Actual result:
+4. 'Approval Internal Governance' section is not editable
+
+Expected result: 
+
+4. 'Approval Internal Governance' section is editable
+
+Attachments: screenshot
