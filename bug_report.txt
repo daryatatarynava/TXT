@@ -1,18 +1,18 @@
+BUG_1
+
 Title : 'Approval Internal Governance' section is not editable when Engagement is shared to Buyer automatically
 
 Pre-condition: 
 
 User is logged the system Head of Procurement, Head of Sales
 
-https://dev.trueledger.net/
-
-e. g. gzcylyxtccvcjq@solarunited.net
+e. g. hdgf@jdjd.net
 Initial1
 
 Steps:
-1. Go to Engagements page https://dev.trueledger.net/home 
+1. Go to Engagements page 
 2. Create new Engagement -> Fill in all required fields Step 1 - 11 -> Sign Engagement on Vendor side: Engagement is shared with Buyer automatically 
-3. Open Engagement on Buyer side. https://dev.trueledger.net/engagement?uuid=123747940571354042836254085676249930742&step=6
+3. Open Engagement on Buyer side. 
 4. Open Step 5 
 
 Actual result:
@@ -23,3 +23,27 @@ Expected result:
 4. 'Approval Internal Governance' section is editable
 
 Attachments: screenshot
+
+BUG_2
+
+Title: [Delivery reports] 'Escalated' mark is visible for Vendor
+
+Pre-condition: 
+
+User is logged the system as Engagement Responsible (Vendor)
+
+e. g. gttggg@runited.net
+Initial1
+
+Steps:
+1. Go to Engagements page 
+2. Open Delivery reports page for any active engagement where user is Engagement responsible
+3. Report work  for any date in the past 
+
+Actual result:
+3. “Escalated” mark is visible to Vendor 
+
+
+
+Expected result:
+3. “Escalated” mark is visible only to Buyer;
